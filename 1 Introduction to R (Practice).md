@@ -143,7 +143,7 @@ Diperoleh dari syntax berikut:
   }
   
   #Cara 2
-```
+C<- !A%%2==0 && TRUE```
 
 
 
