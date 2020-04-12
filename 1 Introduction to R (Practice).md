@@ -141,9 +141,26 @@ Diperoleh dari syntax berikut:
   } else {
       C <- TRUE
   }
-  
+  # Sempurnain
+    if ( A %% 2 == 1 ) {
+      C <- TRUE
+    } else {
+      C <- FALSE
+    }
+
+    # Lebih efisien
+    if ( A %% 2 ) {
+      C <- TRUE
+    } else {
+      C <- FALSE
+    }
+    
   #Cara 2
-C<- !A%%2==0 && TRUE```
+    C<- !A%%2==0 && TRUE
+
+    # Lebih sederhana
+    C <- A%%2 == 1
+```
 
 
 
