@@ -1,1 +1,21 @@
 # Practice
+
+
+(Hanzholah)
+1. Normalisasi data dapat dilakukan dengan beberapa metode yang di antaranya dilakukan dengan menggunakan metode *Feature Scaling* dengan *range* 0 sampai dengan 1 menggunakan rumus berikut:
+
+   $$ z_i = \dfrac{x_i - x_{min}}{x_{max} - x_{min}} $$
+
+   di mana $ z_i $ adalah adalah nilai yang sudah dinormalisasi. $ z $ adalah kumpulan nilai yang memiliki nilai maksimal $ z_{max} $ = 1 dan nilai minimum $ z_{min} $ = 0. 
+
+   
+
+   Berdasarkan informasi tersebut:
+
+   - Buatlah sebuah fungsi `normalise()` yang menormalisasikan kumpulan nilai (dalam bentuk *vector* atau *matrix*)!
+   - Buatlah sebuah *vector* yang nilai di dalamnya terdistribusi normal 0 sampai dengan 1! (Menggunakan fungsi `rnorm()` sebagai input fungsi `normalise()`)
+   - Petakan nilai dari *vector* yang dibuat sebelumnya ke dalam sebuah histogram menggunakan fungsi `hist()`!
+
+   
+
+
