@@ -3,7 +3,9 @@
 1. Fungsi `seq(from = 0, to = 100, by = 1)` akan menghasilkan vektor berurut dari 1 sampai 100. Hal yang sama juga dapat diperoleh dengan menggunakan operator `:` dengan menjalankan kode `1 : 100`. 
 
     - Kode seperti apa (yang menggunakan operator `:`) yang dapat menghasilkan hasil sama seperti *output* kode ` seq(1, 100, 0.5) `? (*Hint*:  operasi vektor `c(1,2,3) + 100` akan menghasilkan nilai 101, 102, dan 103)
-    - Buatlah kode dengan menggunakan fungsi `seq` untuk membuat 428 angka berurut dari 5 sampai 213!
+      Jawab : 2:200 / 2
+    - Buatlah kode dengan menggunakan fungsi `seq` untuk membuat 428 angka berurut dari 5 sampai 213! 
+      Jawab : seq (5, 213, 208/427)
     
 
     
