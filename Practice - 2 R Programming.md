@@ -77,3 +77,14 @@
     - Fungsi `rowSums(my_matrix)` akan memberikan vektor berisi penjumlahan setiap baris dan `colMeans(my_matrix)` akan mengembalikan vektor berisi rata-rata setiap baris. Berapa jumlah rata-rata baris terkecil? Berapa hasil penjumlahan kolom terbesar?
 
     
+
+5. Diketahui nilai mata kuliah semester 3 seorang mahasiswa bernama Uye dapat dilihat pada Tabel 1.1.
+   
+    - Buatlah fungsi untuk menghitung IP semester 3 Uye dengan mengkonversikan **Hasil Akhir** menjadi nilai huruf dimana nilai lebih dari 80 adalah A, nilai lebih dari 70 adalah B, nilai lebih dari 60 adalah C, nilai lebih dari 50 adalah D, dan selain itu bernilai E! Masing-masing bobot untuk nilai A, B, C, D, dan E adalah 4, 3, 2, 1, dan 0.
+        - Rumus nentuin IP: IP = Sigma(Bobot Nilai MK x SKS MK) / Total SKS
+    
+    - Buatlah sebuah *data frame* dengan nama kolom Mata Kuliah, SKS, Nilai (dalam huruf), Bobot, Nilai MK (SKS*Bobot)! :)
+
+**Tabel 1.1**          
+![image](https://user-images.githubusercontent.com/62996587/79378749-143c5700-7f88-11ea-84f6-8765b3cf7fe3.png)
+    
