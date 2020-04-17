@@ -32,7 +32,14 @@
 
 3. Normalisasi data dapat dilakukan dengan beberapa metode yang di antaranya dilakukan dengan menggunakan metode *Feature Scaling* dengan *range* 0 sampai dengan 1 menggunakan rumus berikut:
 
-    $$ z_i = \dfrac{x_i - x_{min}}{x_{max} - x_{min}} $$
+    ![$$ z_i = \dfrac{x_i - x_{min}}{x_{max} - x_{min}} $$]
+    
+    atau zi = ( (xi - xmin) / (xmax - xmin) )
+    
+    di mana xi adalah nilai sebelum di normalisasi
+            zi adalah nilai setelah di normalisasi (berkisar antara 0 sampai 1)
+            xmin adalah nilai terkecil dari kumpulan nilai x0 sampai xn
+            xmax adalah nilai terbesar dari kumpulan nilai x0 sampai xn
 
     di mana $ z_i $ adalah adalah nilai yang sudah dinormalisasi. $ z $ adalah kumpulan nilai yang memiliki nilai maksimal $ z_{max} $ = 1 dan nilai minimum $ z_{min} $ = 0. 
 
@@ -48,7 +55,7 @@
 
       
 
-4. Berikut beberapa fungsi yang dapat dioperasikan dengan *input* atau menghasilkan *output* berupa vektor.
+4. Berikut beberapa fungsi yang dapat menghasilkan *output* berupa vektor.
 
     ```R
     rep(0, 5)
