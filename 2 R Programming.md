@@ -203,11 +203,9 @@
     names(revenues)  <- c("mon", "tue", "wed", "thu", "fri")
     # Check the result
 	revenues
-    
-  # cara lain
+    # cara lain
     c("mon" = 1, "tue" = 2)
     ```
-  
   
   - Subsetting a vector
     
@@ -294,7 +292,7 @@
     my_mx[c("m[1,4]", "m[8,3]")]
     ```
   
-- Lists   (!!!WARNING = MINGGU DEPAN LAGI AJA)
+- List
 
   - Creating a list
 
@@ -312,6 +310,16 @@
     
     names(my_list) <- c("number", "Authorized", "Code", "Answer", "Rating")
     ```
+    
+  - Subsetting a list
+    
+    ```R
+    my_list$number
+    my_list[['number']]
+    
+    # This will result a list
+    my_list['number']
+    ```
 
 - Data Frames
   
@@ -322,6 +330,7 @@
     data.frame(sesi_1 = c(1,1,3,4), sesi_2 = c(3,1,3,4))
     data.frame(id = 1:100, var_1 = rnorm(100), var_2 = "OK!", var_3 = NA)
     ```
+    
   - Naming in a data frame
   
     ```R
@@ -332,3 +341,15 @@
     row.names(df_data) <- paste0("case_", 1:nrow(df_data)) 
     # "rownames()" as an alternative to "row.names()"
     ```
+    
+  - Subsetting a data frame
+  
+    ```R
+    df_data[1, 5]
+    df_data[c(1,5:10), c(3,4)]
+  df_data$v_1
+    
+    df_data[df_data$v_2 > 1.2, ]
+    ```
+    
+    
